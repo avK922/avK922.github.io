@@ -36,7 +36,7 @@ function write(argum) {
   var content = document.querySelector('.wrap');
     if(flag==1){
       for (var i = 0; i < argum.length; i++) {
-          var thumb = "http://i.ytimg.com/vi/"+ argum[i].videoId +"/mqdefault.jpg";
+          var thumb = "https://i.ytimg.com/vi/"+ argum[i].videoId +"/mqdefault.jpg";
         	var rest = document.createElement('div');
           rest.className = 'rest';
         	var img = document.createElement('img');
@@ -64,7 +64,7 @@ function write(argum) {
          
           for (var i = 0; i < argum.length; i++) {
                 
-            var thumb = "http://i.ytimg.com/vi/"+ argum[i].videoId +"/mqdefault.jpg";
+            var thumb = "https://i.ytimg.com/vi/"+ argum[i].videoId +"/mqdefault.jpg";
 
             var rest = document.createElement('div');
             rest.className = 'rest';
